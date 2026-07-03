@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stackly Spaces</title>
+  <meta name="description" content="View flexible pricing plans for hot desks, dedicated desks, and private corporate suites. Calculate your plan online.">
+  
+  <!-- CSS Library CDNs -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/css/bootstrap-select.min.css">
+  
+  <!-- Local Styles -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Dynamic Preloader Injector -->
+  <div id="preloader-placeholder"></div>
+
+  <!-- Dynamic Header Injector -->
+  <div id="header-placeholder"></div>
+
+  <main>
+    <!-- SECTION 1: SUBPAGE HEADER -->
+    <section class="bg-navy py-5 text-white position-relative" style="background-image: linear-gradient(to right, rgba(9, 23, 42, 0.9), rgba(9, 23, 42, 0.7));">
+      <div class="container py-4 text-center">
+        <h1 class="display-4 fw-bold text-white mb-2">Membership Pricing</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb justify-content-center mb-0">
+            <li class="breadcrumb-item"><a href="index.html" class="text-warning text-decoration-none">Home</a></li>
+            <li class="breadcrumb-item text-white active" aria-current="page">Pricing</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+
+    <!-- SECTION 2: PLANS CARDS -->
+    <section class="section-padding bg-cream">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="text-warning text-uppercase fw-bold mb-2 tracking-wider">Plans</h5>
+          <h2 class="display-5 fw-bold text-navy">Choose Your Workspace Speed</h2>
+        </div>
+        <div class="row g-4 align-items-stretch">
+          
+          <!-- Hot Desk -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="100">
+            <div class="stackly-card d-flex flex-column justify-content-between h-100">
+              <div>
+                <h4 class="fw-bold text-navy mb-2">Hot Desk</h4>
+                <p class="text-muted small">Access lounges & open tables.</p>
+                <h2 class="display-5 fw-bold text-warning my-4">$180<span class="fs-6 text-muted font-normal">/mo</span></h2>
+                <hr class="border-light my-3">
+                <ul class="list-unstyled small mb-4">
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Flexible hot desk seating</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Mon-Fri Lounge Access (9am-6pm)</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>2x Meeting Room Credits/mo</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Complimentary Organic Cafe</li>
+                </ul>
+              </div>
+              <a href="404.html" class="btn btn-outline-warning w-100 rounded-pill py-2 fw-semibold">Choose Hot Desk</a>
+            </div>
+          </div>
+
+          <!-- Dedicated Desk (Featured) -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <div class="stackly-card d-flex flex-column justify-content-between h-100 border-warning bg-white shadow">
+              <div class="position-relative">
+                <span class="position-absolute top-0 end-0 badge bg-warning text-navy text-uppercase fw-bold">Popular</span>
+                <h4 class="fw-bold text-navy mb-2">Dedicated Desk</h4>
+                <p class="text-muted small">Your own secured desk workspace.</p>
+                <h2 class="display-5 fw-bold text-warning my-4">$350<span class="fs-6 text-muted font-normal">/mo</span></h2>
+                <hr class="border-light my-3">
+                <ul class="list-unstyled small mb-4">
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Secured designated desk</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>24/7 keycard building access</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>10x Meeting Room Credits/mo</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Secure desk locking cabinets</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Business mailing address utility</li>
+                </ul>
+              </div>
+              <a href="404.html" class="btn btn-warning w-100 rounded-pill py-2 fw-semibold">Choose Dedicated</a>
+            </div>
+          </div>
+
+          <!-- Private Office -->
+          <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+            <div class="stackly-card d-flex flex-column justify-content-between h-100">
+              <div>
+                <h4 class="fw-bold text-navy mb-2">Private Office</h4>
+                <p class="text-muted small">Lockable office for teams.</p>
+                <h2 class="display-5 fw-bold text-warning my-4">$1,200<span class="fs-6 text-muted font-normal">/mo</span></h2>
+                <hr class="border-light my-3">
+                <ul class="list-unstyled small mb-4">
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Secure office wing (4-6 pax)</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>24/7 secure private entry</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>30x Meeting Room Credits/mo</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Secure local LAN firewalls</li>
+                  <li class="mb-2"><i class="fa-solid fa-circle-check text-warning me-2"></i>Custom signage layouts allowed</li>
+                </ul>
+              </div>
+              <a href="404.html" class="btn btn-outline-warning w-100 rounded-pill py-2 fw-semibold">Choose Office</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 3: INTERACTIVE ESTIMATOR (NOUISLIDER) -->
+    <section class="section-padding bg-white border-top border-bottom border-warning-subtle">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <h5 class="text-warning text-uppercase fw-bold mb-2 tracking-wider">Dynamic Pricing</h5>
+            <h2 class="display-5 fw-bold mb-4 text-navy">Corporate Team Scale Calculator</h2>
+            <p class="text-muted mb-5">Adjust the range bar slider to select the count of desks your tech team demands. Dynamic billing discounts scale up as team volumes grow.</p>
+            
+            <div class="px-3 mb-4">
+              <label class="form-label text-navy fw-bold mb-4">Team Desks Count: <span id="pricing-range-val" class="text-warning fs-4">15</span></label>
+              <div id="pricing-range-slider" class="my-3"></div>
+            </div>
+          </div>
+          
+          <div class="col-lg-6" data-aos="fade-left">
+            <div class="p-5 bg-navy text-white rounded-4 border border-warning shadow-lg">
+              <h4 class="text-white fw-bold mb-4 border-bottom border-warning-subtle pb-3"><i class="fa-solid fa-calculator me-2"></i>Bespoke Investment Summary</h4>
+              <div class="d-flex justify-content-between mb-3 small">
+                <span class="opacity-80">Workspace Setup Fee:</span>
+                <span class="text-warning">Waived ($0)</span>
+              </div>
+              <div class="d-flex justify-content-between mb-3 small">
+                <span class="opacity-80">Security Deposit:</span>
+                <span class="text-warning">Waived ($0)</span>
+              </div>
+              <div class="d-flex justify-content-between mb-4 small">
+                <span class="opacity-80">Fiber Internet Routing:</span>
+                <span class="text-warning">VLAN Enabled</span>
+              </div>
+              <div class="border-top border-warning-subtle pt-4 mb-4 text-center">
+                <p class="text-uppercase small tracking-wider opacity-60 mb-2">Total Monthly Investment</p>
+                <h2 class="display-4 fw-bold text-warning" id="pricing-est-total">$2,250/mo</h2>
+              </div>
+              <a href="contact.html" class="btn btn-warning btn-lg w-100 rounded-pill">Request Custom Agreement</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 4: FEATURE COMPARISON TABLE -->
+    <section class="section-padding bg-cream">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="text-warning text-uppercase fw-bold mb-2 tracking-wider">Comparison</h5>
+          <h2 class="display-5 fw-bold text-navy">Compare Plan Benefits</h2>
+        </div>
+        <div class="table-responsive bg-white rounded border border-light shadow-sm" data-aos="fade-up">
+          <table class="table table-striped table-hover mb-0 align-middle text-center">
+            <thead class="bg-navy text-white">
+              <tr>
+                <th class="text-start py-3 px-4 bg-navy text-white">Features</th>
+                <th class="py-3 bg-navy text-white">Hot Desk</th>
+                <th class="py-3 bg-navy text-white">Dedicated Desk</th>
+                <th class="py-3 bg-navy text-white">Private Office</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="text-start py-3 px-4 fw-semibold">Access Schedule</td>
+                <td class="text-muted small">Business hours</td>
+                <td class="text-warning fw-semibold">24/7 access</td>
+                <td class="text-warning fw-semibold">24/7 access</td>
+              </tr>
+              <tr>
+                <td class="text-start py-3 px-4 fw-semibold">Mail Handling</td>
+                <td class="text-danger"><i class="fa-solid fa-xmark"></i></td>
+                <td class="text-success"><i class="fa-solid fa-check"></i></td>
+                <td class="text-success"><i class="fa-solid fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start py-3 px-4 fw-semibold">Meeting Credits</td>
+                <td class="text-muted small">2 credits/mo</td>
+                <td class="text-muted small">10 credits/mo</td>
+                <td class="text-muted small">30 credits/mo</td>
+              </tr>
+              <tr>
+                <td class="text-start py-3 px-4 fw-semibold">Wired Internet Port</td>
+                <td class="text-danger"><i class="fa-solid fa-xmark"></i></td>
+                <td class="text-danger"><i class="fa-solid fa-xmark"></i></td>
+                <td class="text-success"><i class="fa-solid fa-check"></i></td>
+              </tr>
+              <tr>
+                <td class="text-start py-3 px-4 fw-semibold">Free Guest Entry</td>
+                <td class="text-danger"><i class="fa-solid fa-xmark"></i></td>
+                <td class="text-muted small">2 guests/day</td>
+                <td class="text-warning fw-semibold">Unlimited</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 5: TEAM DISCOUNT COUNTDOWN -->
+    <section class="section-padding bg-white border-top border-bottom border-warning-subtle">
+      <div class="container text-center">
+        <div class="col-lg-8 mx-auto" data-aos="fade-up">
+          <h5 class="text-warning text-uppercase fw-bold mb-2 tracking-wider">Promotion</h5>
+          <h2 class="display-5 fw-bold text-navy">Corporate Team discount (20% Off)</h2>
+          <p class="text-muted mb-5">Sign up a team of 5 pax or more inside private suites before this countdown finishes, and unlock a 20% discount valid for the entire contract term.</p>
+          <div id="countdown-clock" class="mb-0"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 6: CORPORATE SOLUTIONS -->
+    <section class="section-padding bg-cream">
+      <div class="container">
+        <div class="row align-items-center g-5">
+          <div class="col-lg-6" data-aos="fade-right">
+            <span class="badge bg-warning text-navy mb-3 px-3 py-2 text-uppercase fw-semibold tracking-wider">Managed Wings</span>
+            <h2 class="display-5 fw-bold mb-4 text-navy">Custom Built Enterprise Suites</h2>
+            <p class="text-muted mb-4 fs-5">For larger operations demanding customizable layouts, private server closets, security glass divisions, and custom reception desks.</p>
+            <p class="text-muted mb-4">Our architectural managers design, coordinate, and construct private wings tailored to your design specs. Standard managed suite operations (cleaning, IT setup, cafeteria) are completely managed by Stackly.</p>
+            <a href="contact.html" class="btn btn-warning rounded-pill px-4">Consult Enterprise Specialist</a>
+          </div>
+          <div class="col-lg-6" data-aos="fade-left">
+            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?auto=format&fit=crop&w=800&q=80" alt="Corporate suite Layout" class="img-fluid rounded shadow border border-warning-subtle">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 7: FAQ ACCORDION -->
+    <section class="section-padding bg-white border-top border-bottom border-warning-subtle">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="text-warning text-uppercase fw-bold mb-2 tracking-wider">FAQ</h5>
+          <h2 class="display-5 fw-bold text-navy">Billing Questions</h2>
+        </div>
+        <div class="col-lg-8 mx-auto" data-aos="fade-up">
+          <div class="accordion" id="billingFaq">
+            <div class="accordion-item border-light mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button bg-cream text-navy fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne">
+                  Are there setup fees or hidden deposits?
+                </button>
+              </h2>
+              <div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#billingFaq">
+                <div class="accordion-body text-muted small bg-white">
+                  No. Stackly does not charge workspace setup fees or deposits. Your monthly fee is clean and turn-key, covering utilities, printing, and building operations.
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item border-light mb-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed bg-cream text-navy fw-semibold" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo">
+                  What payment methods are supported?
+                </button>
+              </h2>
+              <div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#billingFaq">
+                <div class="accordion-body text-muted small bg-white">
+                  We support monthly credit cards checkouts, direct bank wire transactions (ACH), and Stripe integrations via the client dashboard portal.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 8: SERVICE STATS (COUNTER) -->
+    <section class="bg-navy py-5 text-white jarallax">
+      <img class="jarallax-img" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80" alt="Parallax statistics background">
+      <div class="hero-overlay" style="background: rgba(9, 23, 42, 0.85);"></div>
+      <div class="container position-relative py-4" style="z-index: 2;">
+        <div class="row g-4 text-center">
+          <div class="col-6 col-md-3">
+            <h2 class="display-5 text-warning fw-bold mb-1"><span class="counter-value" data-count="24">0</span></h2>
+            <p class="mb-0 text-secondary-white small text-uppercase tracking-wider">Global Locations Included</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h2 class="display-5 text-warning fw-bold mb-1"><span class="counter-value" data-count="120">0</span>+</h2>
+            <p class="mb-0 text-secondary-white small text-uppercase tracking-wider">Free Print Pages/mo</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h2 class="display-5 text-warning fw-bold mb-1"><span class="counter-value" data-count="15">0</span></h2>
+            <p class="mb-0 text-secondary-white small text-uppercase tracking-wider">Meeting Room Credits Included</p>
+          </div>
+          <div class="col-6 col-md-3">
+            <h2 class="display-5 text-warning fw-bold mb-1"><span class="counter-value" data-count="100">0</span>%</h2>
+            <p class="mb-0 text-secondary-white small text-uppercase tracking-wider">Satisfied Innovators</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 9: TESTIMONIALS SLIDER -->
+    <section class="section-padding bg-cream border-top border-bottom border-warning-subtle">
+      <div class="container">
+        <div class="text-center mb-5" data-aos="fade-up">
+          <h5 class="text-warning text-uppercase fw-bold mb-2 tracking-wider">Reviews</h5>
+          <h2 class="display-5 fw-bold text-navy">Member Pricing Feedback</h2>
+        </div>
+        <div class="owl-carousel testimonials-owl">
+          <div class="p-4 bg-white border border-light rounded">
+            <p class="text-muted italic mb-3 small">"We saved over 35% in commercial overhead costs compared to standard office leases. Not worrying about internet, cleaning, and cafe details makes pricing extremely worth it."</p>
+            <h6 class="fw-bold mb-0 text-navy">D. Sterling</h6>
+            <small class="text-muted">CEO, FinLink Global</small>
+          </div>
+          <div class="p-4 bg-white border border-light rounded">
+            <p class="text-muted italic mb-3 small">"The Hot Desk membership pays for itself via printing credits, meeting rooms, and coffee cafe alone. Highly recommended."</p>
+            <h6 class="fw-bold mb-0 text-navy">Rachel K.</h6>
+            <small class="text-muted">Independent App Developer</small>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SECTION 10: CALL TO ACTION -->
+    <section class="bg-navy py-5 text-white">
+      <div class="container py-4 text-center">
+        <h2 class="display-6 fw-bold text-white mb-3">Begin Coding & Working Today</h2>
+        <p class="text-secondary-white mb-4 mx-auto max-w-600">Register in less than 5 minutes online, configure billing preferences, and access your desk spaces instantly.</p>
+        <a href="login.html" class="btn btn-warning rounded-pill px-5 btn-lg hover-grow">Sign Up For Membership</a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Dynamic Footer Injector -->
+  <div id="footer-placeholder"></div>
+
+  <!-- JavaScript Library CDNs -->
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.14.0-beta2/js/bootstrap-select.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/tiny-slider/2.9.4/tiny-slider.js"></script>
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script src="https://unpkg.com/imagesloaded@5/imagesloaded.pkgd.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jarallax/2.0.4/jarallax.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/lettering.js/0.7.0/jquery.lettering.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/circletype@2.3.0/dist/circletype.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.5/jquery.validate.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-appear/0.1.1/jquery.appear.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.countdown/2.2.0/jquery.countdown.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/noUiSlider/15.7.1/nouislider.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/wnumb/1.2.0/wNumb.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  
+  <!-- Custom Shared & Main JS -->
+  <script src="js/components.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>
