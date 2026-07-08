@@ -97,7 +97,10 @@ document.addEventListener("DOMContentLoaded", function () {
         <div class="container pt-4">
           <div class="row g-4 mb-5">
             <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-duration="600">
-              <h4 class="text-white fw-bold mb-4"><img src="images/logo.webp" alt="Stackly Logo" style="height: 45px; width: auto; margin-right: 8px;"><span class="text-warning">Stack</span>ly</h4>
+              <a href="index.html" class="d-inline-flex align-items-center text-decoration-none text-white fw-bold mb-4" aria-label="Go to homepage">
+                <img src="images/logo.webp" alt="Stackly Logo" style="height: 45px; width: auto; margin-right: 8px;">
+                <span class="text-warning">Stack</span>ly
+              </a>
               <p class="mb-4 text-secondary-white">Redefining modern coworking workspaces for freelancers, startups, and established enterprises. Work productively, connect meaningfully, and scale seamlessly.</p>
               <div class="d-flex gap-3 social-links">
                 <a href="404.html" class="social-icon" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
